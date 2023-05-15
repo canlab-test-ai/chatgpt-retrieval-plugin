@@ -1,0 +1,30 @@
+네, 가능합니다. 2023년 5월 현재까지 모든 canD Rocket은 두개 이상의 canD 모듈을 조합하여 구축되었고, 모든 서비스의 사용자들은 온전한 하나의 서비스로 경험하고 있습니다. 이를 위해 canD devArmada들은 보다 효율적으로 협업할 수 있도록 표준과 프로토콜을 만듭니다. 또한, CANpass 는 서로 다른 SaaS 모듈 간의 계정 연결, 인증, 연동과 관련된 다양한 문제들을 담당합니다.
+네, 2023년 5월 현재로서는 canPass 가 연동되지 않은 모듈은 없습니다.
+canPass 는 identifier 연동을 중재합니다. 각 SaaS 서비스들 혹은 canD 모듈들은 다른 서비스들과 각각 개별적으로 identifier 연동 작업을 할 필요 없이, canPass 와 한번만 연결하면 됩니다.
+네, 그렇습니다.
+네, 그렇습니다. canPass 는 다양한 싱글 로그인 시스템을 제공합니다. 2023년 5월 현재 구글, 페이스북, 애플, 카카오 및 메타마스크를 지원하고 있습니다.
+Yes, it does. canPass provides various single sign-on systems. Currently we offer the sign-ups with Gmail, Facebook, Apple, Kakaotalk, and Metamask accounts.
+CANpass 보유자에게 마치 소셜 로그인(구글/페이스북 싱글사인온 등)을 이용하듯이, 원 클릭으로 서비스에 가입 하도록 할 수 있습니다.
+네, 무료입니다.
+사용자는 자신의 Identity 를 다양한 서비스에 가지고 다닐 수 있게 됩니다. 한 서비스에서 획득한 아이템, 배지, 토큰, 레퓨테이션을 다른 서비스에서도 사용이 가능한 ‘열린 메타버스’를 경험할 수 있습니다.
+canPass 를 지원하는 모든 서비스에서 사용할 수 있습니다.
+canPass는 사용자가 각각의 서비스에서 활동한 데이터를 보유하지 않습니다. 사용자의 활동 데이터는 canPass가 아닌 각각의 서비스가 보유합니다. canPass는 서비스간의 부드러운 연결을 위해 'A 서비스에서의 a 사용자가 B 서비스에서의 b 사용자'라는 정보를 바탕으로 한 account connector의 역할을 합니다.
+CANpass는 개념적으로도 또 그 철학적으로도 기존 대기업들의 통합 로그인 시스템과는 다릅니다. 기존 대기업들은 사용자 데이터를 광범위하게 수집하고 소유하며, 자신들의 로그인 시스템을 채택한 서비스들에게 사용자 데이터를 제공합니다. canD 생태계에서 CANpass는 사용자 데이터를 수집하고 소유하는 중앙집권적 주체가 아니며, 사용자 데이터는 개별 서비스들이 소유하고 관리합니다. CANpass를 통하여 사용자는 서비스 A의 계정과 서비스 B의 계정을 연결할 수 있고, 서비스 A 와 B 를 마치 한 서비스처럼 넘나들고자 할 때 CANpass를 통해 이 두 계정이 연결된 계정임을 A, B 서비스에 확인시킵니다. CANpass가 각 서비스에서 사용자가 어떠한 글을 썼는지 무엇을 팔로우 하는지 등의 사용자 활동에 대해서는 알 수 없으므로, 사용자들은 편의성을 추구하는 동시에 나의 일거수 일투족에 대한 모든 데이터를 특정 기업이 소유하고 활용하는 부담감에서 자유로울 수 있습니다.
+In both functionality and philosophy, canPass differs from large corporations' single sign-on systems. Large corporations amass as much user data as possible, own it and push services using their log-in system in exchange for supplying user data and collecting additional data, and so on. canPass is not a centralized body in the canD ecosystem that collects and owns all user data from connected services. Each separate service stores its user data, such as what users write, read, buy or follow in each service. It is safer and more equitable than having a single company control and utilize all data on people's every move, while yet reaping the benefits of convenience. 
+크립토배지는 블록체인을 기반으로 한 인증 시스템으로, 개개인의 고유한 업적이나 경험을 디지털 배지로 발급하고, 활용할 수 있도록 하는 제반 인프라를 제공합니다.
+CryptoBadge is a certificate system that encompasses a wide range of certificate applications, from non-transferable NFT(eg. SBT(Soulbound Token)) badge issuance with graphical user interface to utilities for badge winners to integrable badge applications for services and communities.
+어디서나 증명이 가능하며, 위조 혹은 도난의 위험이 없습니다. 자격증 발급 기관이 사라져도 자격증을 유효하게 지속하고 활용할 수 있습니다.
+CryptoBadge converts the merits of badge winners into tokenizable assets, connecting them to a variety of opportunities for reputation, authority, and economic reward.
+크립토배지는 다야하게 활용될 수 있습니다. 커뮤니티 기여도, 학업 성취도, 클래스 수료, 온라인 게임의 세계 랭킹 기록, 하와이 코나에서 트라이애슬론을 완주한 것, 유니세프에 도네이션을 한 것 등 무엇이건 배지가 될 수 있죠. 하물며 '햄최몇(햄버거 최대 몇개)' 또는 '소최몇(소주 최대 몇병)'까지 가능하다니까요!
+Yes, you can use CryptoBadge anywhere you like. Displaying or validating badges in a service is at the discretion of the service. 
+Anyone can issue, win or display CryptoBadges.
+Basically, you can find them on the My Badges of CryptoBadge.xyz. You can also see them in the services of displayers who use CryptoBadge in their system. Displayers can configure which badges are shown or hidden in their service.
+CryptoBadge facilitates badge winners to manage which badges to show and hide for each service.
+CryptoBadges are created by the Badge Issuer and anyone can be a Badge Issuer.
+Any individual or organization can register as a Badge Issuer (free) to create and issue badges without blockchain knowledge. Its graphical user interface facilitates the entire process of creating, issuing, cancelling, managing, and storing badges on blockchain. A community can collectively grant a badge through consensus.  Offline certificate institutes can also utilize CryptoBadges to degitalize their certifications.
+Anyone can win badges by successfully fulfilling the requirements or quests of each badge.
+The CryptoBadge APIs enable enterprises to easily and affordably deploy a badge system for their services in an easy and economic way. Displayers are services that employ CryptoBadge in their operations. Businesses can encourage specific activities related to certain badges, or provide benefits to specific badge winners in their service.
+An individual or organization can register as Badge Displayers. Using CryptoBadge APIs, Badge Displayers can retrieve certificate information from the blockchain and display users’ CryptoBadge on their website or mobile app. In addition to the badges issued by Badge Displayers themselves, they can also select to display badges issued by other issuers upon the user’s consent.
+"CryptoBadge enables people to tokenize and assetize their merits such as achievements, experiences, and contributions, which proves their expertise, credibility, reputations, and more.
+CryptoBadge winners can safely store the bits of their experiences on the blockchain. CryptoBadge winners collect tokens of all kinds, from achieving Champion Level at Clash Royale, completing a triathlon in Kona, Hawaii, tasting a limited edition wine in a private winery, visiting 500 travel destinations, donating to UNICEF, to supporting a famous idol group, BTS."
+"In contrast to conventional methods of recognition, CryptoBadge is universal, eternal, and verifiable. It can be used across different platforms, is stored permanently on a blockchain, and provides authentic information verified by non-transferable NFT.

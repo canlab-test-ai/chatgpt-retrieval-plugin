@@ -253,11 +253,11 @@ poetry install
 
 The API requires the following environment variables to work:
 
-| Name             | Required | Description                                                                                                                                                                                |
-| ---------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Name             | Required | Description                                                                                                                                                                                            |
+| ---------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `DATASTORE`      | Yes      | This specifies the vector database provider you want to use to store and query embeddings. You can choose from `chroma`, `pinecone`, `weaviate`, `zilliz`, `milvus`, `qdrant`, `redis`, `azuresearch`. |
-| `BEARER_TOKEN`   | Yes      | This is a secret token that you need to authenticate your requests to the API. You can generate one using any tool or method you prefer, such as [jwt.io](https://jwt.io/).                |
-| `OPENAI_API_KEY` | Yes      | This is your OpenAI API key that you need to generate embeddings using the `text-embedding-ada-002` model. You can get an API key by creating an account on [OpenAI](https://openai.com/). |
+| `BEARER_TOKEN`   | Yes      | This is a secret token that you need to authenticate your requests to the API. You can generate one using any tool or method you prefer, such as [jwt.io](https://jwt.io/).                            |
+| `OPENAI_API_KEY` | Yes      | This is your OpenAI API key that you need to generate embeddings using the `text-embedding-ada-002` model. You can get an API key by creating an account on [OpenAI](https://openai.com/).             |
 
 ### Using the plugin with Azure OpenAI
 
@@ -506,3 +506,24 @@ We would like to extend our gratitude to the following contributors for their co
 - [LlamaIndex](https://github.com/jerryjliu/llama_index)
   - [jerryjliu](https://github.com/jerryjliu)
   - [Disiok](https://github.com/Disiok)
+
+## Use poetry
+
+- pip install poetry
+- poetry env use python3.10
+- poetry shell
+- poetry install
+
+## Use bearer token
+
+- https://jwt.io/
+- Change Decoded's payload and use Encoded's value.
+
+## Use env
+
+- Copy env.sh content and paste and execute in a shell.
+
+## Run fast server
+
+- poetry run start
+- Go to http://0.0.0:8000/docs#/
